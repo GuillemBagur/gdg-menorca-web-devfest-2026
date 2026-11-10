@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" fill="none">
+  <!-- GDG bracket logo with DevFest branding -->
+  <g transform="translate(10, 8)">
+    <!-- Left bracket < (Google Blue & Red) -->
+    <path d="M16 6 L4 18 L16 30" stroke="#4285F4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="4" cy="18" r="2.5" fill="#EA4335" />
+    
+    <!-- Right bracket > (Google Yellow & Green) -->
+    <path d="M26 6 L38 18 L26 30" stroke="#0F9D58" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="38" cy="18" r="2.5" fill="#FBBC04" />
+  </g>
+  <text x="60" y="24" font-family="'Product Sans', 'Google Sans', 'Inter', system-ui, sans-serif" font-weight="700" font-size="16" fill="#202124">DevFest</text>
+  <text x="60" y="38" font-family="'Google Sans', 'Inter', system-ui, sans-serif" font-weight="500" font-size="11" fill="#5F6368" letter-spacing="0.5">Menorca 2026</text>
+</svg>

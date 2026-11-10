@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" fill="none">
+  <rect x="8" y="12" width="26" height="26" rx="6" fill="#0F172A"/>
+  <path d="M15 25 L21 19 L27 25 L21 31 Z" fill="#38BDF8"/>
+  <text x="44" y="24" font-family="'Inter', sans-serif" font-weight="700" font-size="14" fill="#0F172A">Capilote</text>
+  <text x="44" y="37" font-family="'Inter', sans-serif" font-weight="500" font-size="10" fill="#64748B">Tech Consulting</text>
+</svg>

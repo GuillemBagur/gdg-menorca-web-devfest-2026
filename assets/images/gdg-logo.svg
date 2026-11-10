@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" fill="none">
+  <g transform="translate(10, 10)">
+    <!-- Red top-left bracket -->
+    <path d="M12 4 L2 15 L12 26" stroke="#EA4335" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Blue accent -->
+    <path d="M18 4 L8 15 L18 26" stroke="#4285F4" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Yellow accent -->
+    <path d="M24 4 L34 15 L24 26" stroke="#FBBC04" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Green right bracket -->
+    <path d="M30 4 L40 15 L30 26" stroke="#34A853" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="62" y="23" font-family="'Product Sans', 'Google Sans', sans-serif" font-weight="700" font-size="14" fill="#202124">GDG Menorca</text>
+  <text x="62" y="37" font-family="'Google Sans', sans-serif" font-weight="500" font-size="10" fill="#5F6368">Google Developer Groups</text>
+</svg>

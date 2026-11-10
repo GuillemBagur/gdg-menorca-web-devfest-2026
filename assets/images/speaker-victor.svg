@@ -1,0 +1,42 @@
+<!-- Victor Carreras - GDE Web & Mobile / CTO Capgemini -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="victor-bg" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF7E0"/>
+      <stop offset="100%" stop-color="#FCE8B2"/>
+    </linearGradient>
+    <clipPath id="circle-clip-victor">
+      <circle cx="100" cy="100" r="92"/>
+    </clipPath>
+  </defs>
+  <!-- Outer Google Yellow/Amber Ring -->
+  <circle cx="100" cy="100" r="97" stroke="#FBBC04" stroke-width="4"/>
+  <circle cx="100" cy="100" r="92" fill="url(#victor-bg)"/>
+  
+  <g clip-path="url(#circle-clip-victor)">
+    <!-- Dark Navy Jacket -->
+    <path d="M40 210 C45 155 75 145 100 145 C125 145 155 155 160 210 Z" fill="#202124"/>
+    <path d="M85 145 L100 180 L115 145 Z" fill="#F9AB00"/>
+    <!-- Neck -->
+    <path d="M88 115 L88 145 L112 145 L112 115 Z" fill="#ECC8AF"/>
+    <!-- Face -->
+    <ellipse cx="100" cy="98" rx="34" ry="40" fill="#FADBD8"/>
+    <!-- Modern styled hair -->
+    <path d="M66 82 C65 52 82 46 100 46 C124 46 135 56 134 82 C134 70 120 56 100 56 C80 56 68 70 66 82 Z" fill="#1C1A17"/>
+    <!-- Glasses -->
+    <rect x="76" y="87" width="22" height="18" rx="4" stroke="#202124" stroke-width="2.5" fill="none"/>
+    <rect x="102" y="87" width="22" height="18" rx="4" stroke="#202124" stroke-width="2.5" fill="none"/>
+    <path d="M98 94 L102 94" stroke="#202124" stroke-width="2.5"/>
+    <!-- Eyes -->
+    <circle cx="87" cy="96" r="3" fill="#202124"/>
+    <circle cx="113" cy="96" r="3" fill="#202124"/>
+    <!-- Smile -->
+    <path d="M92 118 Q100 125 108 118" stroke="#8E2800" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Mobile/Architecture Icon Badge -->
+    <g transform="translate(135, 30) scale(0.9)">
+      <circle cx="16" cy="16" r="18" fill="#FFFFFF" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.15))"/>
+      <rect x="10" y="8" width="12" height="18" rx="3" stroke="#F29900" stroke-width="2" fill="none"/>
+      <circle cx="16" cy="22" r="1" fill="#F29900"/>
+    </g>
+  </g>
+</svg>

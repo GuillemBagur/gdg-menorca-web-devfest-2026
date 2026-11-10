@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --google-blue: #1A73E8;
+  --google-blue-hover: #1557B0;
+  --google-blue-light: #E8F0FE;
+  
+  --google-red: #EA4335;
+  --google-red-hover: #D93025;
+  --google-red-light: #FCE8E6;
+  
+  --google-yellow: #FBBC04;
+  --google-yellow-dark: #F29900;
+  --google-yellow-light: #FEF7E0;
+  
+  --google-green: #34A853;
+  --google-green-hover: #1E8E3E;
+  --google-green-light: #E6F4EA;
+
+  --google-surface: #FFFFFF;
+  --google-bg: #F8F9FA;
+  --google-text: #202124;
+  --google-muted: #5F6368;
+  --google-border: #DADCE0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--google-text);
+  background-color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, .brand-font {
+  font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Google-style subtle shadow elevation */
+.shadow-google {
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+
+.shadow-google-hover {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.shadow-google-hover:hover {
+  box-shadow: 0 4px 12px 0 rgba(60, 64, 67, 0.15), 0 2px 6px 2px rgba(60, 64, 67, 0.08);
+  transform: translateY(-2px);
+}
+
+.shadow-google-card {
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.12), 0 1px 2px 0 rgba(60, 64, 67, 0.08);
+}
+
+/* Google multi-color bar */
+.google-bar {
+  background: linear-gradient(
+    90deg, 
+    #4285F4 0%, #4285F4 25%, 
+    #EA4335 25%, #EA4335 50%, 
+    #FBBC04 50%, #FBBC04 75%, 
+    #34A853 75%, #34A853 100%
+  );
+  height: 4px;
+}
+
+/* DevFest bracket decor */
+.bracket-tag::before {
+  content: "<";
+  color: #4285F4;
+  font-weight: 700;
+  margin-right: 4px;
+}
+.bracket-tag::after {
+  content: "/>";
+  color: #34A853;
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F3F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #DADCE0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BDC1C6;
+}
+
+/* Modal animation */
+.modal-enter {
+  animation: modalFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Print badge */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printableTicket, #printableTicket * {
+    visibility: visible;
+  }
+  #printableTicket {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}

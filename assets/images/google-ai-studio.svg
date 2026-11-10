@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" fill="none">
+  <!-- Google Sparkle / Star 4-point -->
+  <g transform="translate(10, 8)">
+    <path d="M12 0 C12 6.6 6.6 12 0 12 C6.6 12 12 17.4 12 24 C12 17.4 17.4 12 24 12 C17.4 12 12 6.6 12 0 Z" fill="url(#ai-grad)"/>
+    <defs>
+      <linearGradient id="ai-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4285F4"/>
+        <stop offset="50%" stop-color="#9C27B0"/>
+        <stop offset="100%" stop-color="#EA4335"/>
+      </linearGradient>
+    </defs>
+  </g>
+  <text x="42" y="20" font-family="'Google Sans', 'Inter', sans-serif" font-weight="600" font-size="13" fill="#1F1F1F">Google AI Studio</text>
+  <text x="42" y="32" font-family="'Google Sans', 'Inter', sans-serif" font-weight="400" font-size="10" fill="#5F6368">Prototyping & Lab</text>
+</svg>

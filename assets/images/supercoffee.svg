@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" fill="none">
+  <circle cx="22" cy="25" r="15" fill="#4527A0"/>
+  <!-- Coffee bean or lightning in cup -->
+  <path d="M18 19 L26 23 L22 25 L26 31 L18 27 L22 25 Z" fill="#FFD54F"/>
+  <text x="46" y="24" font-family="'Inter', sans-serif" font-weight="800" font-size="13" fill="#202124">SUPERCOFFEE</text>
+  <text x="46" y="37" font-family="'Inter', sans-serif" font-weight="500" font-size="10" fill="#757575">Specialty & Catering</text>
+</svg>
