@@ -173,12 +173,15 @@ function renderAgenda() {
         <p class="text-xs sm:text-sm text-gray-600 mt-1.5 leading-relaxed">${evt.desc}</p>
         <div class="mt-3 flex flex-wrap items-center justify-between gap-3">
           <span class="text-xs text-gray-500">📍 ${evt.room}</span>
-          <button onclick="openClosedModal()" class="inline-flex items-center text-xs font-bold px-3 py-1.5 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition-colors">
-            ${agenda.requestTurn}
-            <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
+          <div class="flex flex-col items-start sm:items-end gap-1.5">
+            <a href="https://gdg.community.dev/events/details/google-gdg-menorca-presents-devfest-menorca-2026/" target="_blank" rel="noopener" class="inline-flex items-center text-xs font-bold px-3 py-1.5 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition-colors">
+              ${agenda.requestTurn}
+              <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <p class="text-[11px] text-purple-800 max-w-[16rem] sm:text-right">${agenda.sessionHint}</p>
+          </div>
         </div>
       </div>
     </li>

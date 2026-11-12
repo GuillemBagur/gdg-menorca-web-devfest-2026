@@ -66,7 +66,8 @@ const translations = {
       feature4Title: "Resolució de dubtes al moment",
       feature4Desc: "Mentors i experts acompanyant-te durant tot el procés de creació.",
       cta: "Sol·licita plaça al Vibecoding Lounge",
-      limitedSpots: "Places limitades (prèvia inscripció)"
+      limitedSpots: "Places limitades (prèvia inscripció)",
+      sessionHint: "En sol·licitar l'entrada se't demanarà en quina sessió del Vibecoding Lounge vols participar."
     },
     agendaSection: {
       title: "Programa de la jornada",
@@ -75,6 +76,7 @@ const translations = {
       vibeTitle: "Vibecoding Lounge · Plaça Bit",
       vibeNote: "En paral·lel a les xerrades · Places limitades amb inscripció prèvia",
       requestTurn: "Sol·licitar torn",
+      sessionHint: "En sol·licitar l'entrada se't demanarà en quina sessió del Vibecoding Lounge vols participar.",
       talks: [
         {
           time: "16:15 - 17:00",
@@ -312,7 +314,8 @@ const translations = {
       feature4Title: "Resolución de dudas al momento",
       feature4Desc: "Mentores y expertos acompañándote durante todo el proceso de creación.",
       cta: "Solicitar plaza en el Vibecoding Lounge",
-      limitedSpots: "Plazas limitadas (previa inscripción)"
+      limitedSpots: "Plazas limitadas (previa inscripción)",
+      sessionHint: "Al solicitar la entrada se te preguntará en qué sesión del Vibecoding Lounge quieres participar."
     },
     agendaSection: {
       title: "Programa de la jornada",
@@ -321,6 +324,7 @@ const translations = {
       vibeTitle: "Vibecoding Lounge · Plaça Bit",
       vibeNote: "En paralelo a las charlas · Plazas limitadas con inscripción previa",
       requestTurn: "Solicitar turno",
+      sessionHint: "Al solicitar la entrada se te preguntará en qué sesión del Vibecoding Lounge quieres participar.",
       talks: [
         {
           time: "16:15 - 17:00",
@@ -558,7 +562,8 @@ const translations = {
       feature4Title: "Instant mentor support",
       feature4Desc: "Live assistance and architectural guidance throughout the session.",
       cta: "Apply for Vibecoding Lounge",
-      limitedSpots: "Limited spots (registration required)"
+      limitedSpots: "Limited spots (registration required)",
+      sessionHint: "When requesting your ticket, you'll be asked which Vibecoding Lounge session you'd like to join."
     },
     agendaSection: {
       title: "Event Schedule",
@@ -567,6 +572,7 @@ const translations = {
       vibeTitle: "Vibecoding Lounge · Plaça Bit",
       vibeNote: "Running alongside the talks · Limited spots, registration required",
       requestTurn: "Request a slot",
+      sessionHint: "When requesting your ticket, you'll be asked which Vibecoding Lounge session you'd like to join.",
       talks: [
         {
           time: "16:15 - 17:00",
