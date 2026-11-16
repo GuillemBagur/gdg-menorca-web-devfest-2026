@@ -216,6 +216,9 @@ const translations = {
       title: "Organitza",
       subtitle: "Una iniciativa conjunta de GDG Menorca i Centre Bit Menorca per impulsar l'ecosistema tecnològic de l'illa."
     },
+    sponsorsSection: {
+      title: "AMB EL SUPORT DE"
+    },
     closedModal: {
       title: "Les inscripcions encara estan tancades!",
       text: "Molt aviat estaran obertes al públic. Pots unir-te a la nostra comunitat per rebre un avís:",
@@ -464,6 +467,10 @@ const translations = {
       title: "Organiza",
       subtitle: "Una iniciativa conjunta de GDG Menorca y Centre Bit Menorca para impulsar el talento y la tecnología en la isla."
     },
+    sponsorsSection: {
+      tag: "CON EL APOYO DE",
+      title: "Colaboradores"
+    },
     closedModal: {
       title: "¡Las inscripciones todavía están cerradas!",
       text: "Muy pronto estarán abiertas al público. Puedes unirte a nuestra comunidad para recibir un aviso:",
@@ -708,9 +715,11 @@ const translations = {
       ]
     },
     partnersSection: {
-      tag: "ORGANIZES",
-      title: "Organizers",
+      title: "ORGANIZES",
       subtitle: "A joint initiative by GDG Menorca and Centre Bit Menorca to empower the local tech community."
+    },
+    sponsorsSection: {
+      title: "WITH THE SUPPORT OF"
     },
     closedModal: {
       title: "Registration isn't open yet!",
