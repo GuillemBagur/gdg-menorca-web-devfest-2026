@@ -426,7 +426,7 @@ function initCalendarLink() {
   const details = encodeURIComponent(
     "DevFest Menorca al Centre Bit. 4 experts en Cloud, Web, Mobile i Product, Vibecoding Lounge amb Google AI Studio i networking amb càtering."
   );
-  const location = encodeURIComponent("Centre Bit Menorca, Carrer Brocal, 1, 07730 Alaior, Illes Balears");
+  const location = encodeURIComponent("Centre Bit Menorca, Av. des Camp Verd, 4, 07730 Alaior, Illes Balears");
   // Friday 18 Dec 2026 16:15 to 22:30 CET (15:15Z to 21:30Z)
   const gcalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=20261218T151500Z/20261218T213000Z&details=${details}&location=${location}&sf=true&output=xml`;
 
